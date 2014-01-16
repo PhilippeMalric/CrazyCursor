@@ -150,7 +150,7 @@ public class MainActivity extends Activity {
                         	
                         	int x = (int) (currentTime - startTime)/100;  
                         	
-                        	x -= sb1v + sb2v+ sb3v;
+                        	x -= 2 * sb1v + sb2v+ sb3v;
                         	
                         	sb4.setProgress(x);
                         }
