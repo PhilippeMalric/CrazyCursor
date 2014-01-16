@@ -1,0 +1,32 @@
+package com.example.test1;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.widget.SeekBar;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		SeekBar sb1 = (SeekBar)findViewById(R.id.seekBar1);
+		SeekBar sb2 = (SeekBar)findViewById(R.id.seekBar2);
+		SeekBar sb3 = (SeekBar)findViewById(R.id.seekBar3);
+		SeekBar sb4 = (SeekBar)findViewById(R.id.seekBar4);
+		
+		
+		
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

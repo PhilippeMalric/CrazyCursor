@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\P\Documents\GitHub\CrazyCursor\.metadata\.plugins\org.eclipse.jdt.core
+120869507.index
+3860701649.index
